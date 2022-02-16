@@ -1,0 +1,224 @@
+2022-02-16T17:04:15.541Z - info: [main] Received possible protocol arguments: 3
+2022-02-16T17:04:15.549Z - info: [main] Processing protocol url
+2022-02-16T17:04:18.881Z - info: [ui] [AppStore] loading 10 repositories from store
+2022-02-16T17:04:18.884Z - info: [ui] [AppStore] found account: Muzaffarbekm (Muzaffarbek)
+2022-02-16T17:04:21.211Z - info: [ui] Executing getRemotes: git remote -v (took 1.486s)
+2022-02-16T17:04:21.319Z - info: [ui] Executing getRemotes: git remote -v (took 1.231s)
+2022-02-16T17:04:21.320Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.654s)
+2022-02-16T17:04:21.681Z - info: [ui] launching: 2.9.3 (Windows 10.0.19043)
+2022-02-16T17:04:21.682Z - info: [ui] execPath: 'C:\Users\undefeated\AppData\Local\GitHubDesktop\app-2.9.3\GitHubDesktop.exe'
+2022-02-16T17:04:22.531Z - info: [ui] Stats reported.
+2022-02-16T17:04:24.508Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.006s)
+2022-02-16T17:04:26.178Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 4.493s)
+2022-02-16T17:04:27.591Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/Muzaffarbekm/exadel.git - Muzaffarbekm (has token)
+2022-02-16T17:04:31.968Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 -c init.defaultBranch=main clone --recursive --progress -- https://github.com/Muzaffarbekm/exadel.git C:\Users\undefeated\OneDrive\Рабочий стол\exadel (took 3.973s)
+2022-02-16T17:04:32.216Z - info: [ui] [AppStore] adding repository at C:\Users\undefeated\OneDrive\Рабочий стол\exadel to store
+2022-02-16T17:04:32.448Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2022-02-16T17:04:34.867Z - info: [ui] Executing isUsingLFS: git lfs track (took 2.331s)
+2022-02-16T17:04:37.111Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 4.280s)
+2022-02-16T17:08:24.581Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.363s)
+2022-02-16T17:08:24.827Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.782s)
+2022-02-16T17:08:26.712Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.850s)
+2022-02-16T17:08:27.084Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(author)%00%(symref)%00 refs/heads refs/remotes (took 2.235s)
+2022-02-16T17:08:27.222Z - info: [ui] Executing getFilesWithConflictMarkers: git diff --check (took 2.667s)
+2022-02-16T17:08:27.647Z - info: [ui] Executing getWorkingDirectoryDiff: git diff --no-ext-diff --patch-with-raw -z --no-color --no-index -- /dev/null Task1/README.md (took 2.810s)
+2022-02-16T17:08:28.472Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.387s)
+2022-02-16T17:08:29.291Z - info: [ui] Executing getBinaryPaths: git diff --numstat -z HEAD (took 2.067s)
+2022-02-16T17:08:30.255Z - info: [ui] Executing getRemotes: git remote -v (took 1.769s)
+2022-02-16T17:08:41.924Z - info: [ui] Executing getCommits: git log d2ce5ef242e374153166172578adc5f0cd558850 --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 12.630s)
+2022-02-16T17:08:41.954Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 13.467s)
+2022-02-16T17:08:41.955Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 13.328s)
+2022-02-16T17:08:44.644Z - info: [ui] Executing getAllTags: git show-ref --tags -d (took 2.418s)
+2022-02-16T17:08:44.696Z - info: [ui] Executing getConfigValueInPath: git config -z trailer.separators (took 2.734s)
+2022-02-16T17:08:57.491Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 --skip=0 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.009s)
+2022-02-16T17:10:12.923Z - info: [ui] Executing getConfigValueInPath: git config -z protocol.version (took 2.019s)
+2022-02-16T17:10:22.420Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.883s)
+2022-02-16T17:10:23.615Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(author)%00%(symref)%00 refs/heads refs/remotes (took 1.171s)
+2022-02-16T17:10:34.475Z - info: [ui] Executing getCommits: git log 6d4995013bc500736a5da252e1bd8e7c63c73baa --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.210s)
+2022-02-16T17:10:38.592Z - info: [ui] Executing getRemotes: git remote -v (took 1.079s)
+2022-02-16T17:10:39.149Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T17:10:39.150Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 11 repositories took 56.9s of which 81.5s paused, total 138.4s
+2022-02-16T17:11:27.433Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 74.445s)
+2022-02-16T17:11:42.287Z - info: [ui] [Timing] Action 'create commit' for 'muzaffarbekm/exadel' took 2.309s
+2022-02-16T17:11:45.104Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T17:11:49.863Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 4.496s)
+2022-02-16T17:11:51.744Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.532s)
+2022-02-16T17:15:33.036Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T17:15:35.881Z - info: [ui] [Timing] Action 'create branch' for 'muzaffarbekm/exadel' took 3.673s
+2022-02-16T17:19:47.915Z - info: [ui] Executing unstageAll: git reset -- . (took 1.985s)
+2022-02-16T17:19:50.939Z - info: [ui] Executing createCommit: git commit -F - (took 2.104s)
+2022-02-16T17:19:53.224Z - info: [ui] Executing getCommits: git log a67bfcd672f5490b45b76655b652f38a6665da88 --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.421s)
+2022-02-16T17:19:55.172Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color --not --remotes -- (took 1.041s)
+2022-02-16T17:19:56.189Z - info: [ui] Executing getConfigValueInPath: git config -z trailer.separators (took 1.016s)
+2022-02-16T17:19:56.191Z - info: [ui] [Timing] Action 'create commit' for 'muzaffarbekm/exadel' took 10.268s
+2022-02-16T17:19:56.869Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T17:19:58.165Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.867s)
+2022-02-16T17:19:59.368Z - info: [ui] Executing getConfigValueInPath: git config -z protocol.version (took 2.497s)
+2022-02-16T17:19:59.925Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.773s)
+2022-02-16T17:20:00.383Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(author)%00%(symref)%00 refs/heads refs/remotes (took 2.246s)
+2022-02-16T17:20:02.357Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.973s)
+2022-02-16T17:20:03.564Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.172s)
+2022-02-16T17:20:03.747Z - info: [ui] Executing getRemotes: git remote -v (took 1.361s)
+2022-02-16T17:20:04.051Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.670s)
+2022-02-16T17:20:04.285Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color --not --remotes -- (took 1.925s)
+2022-02-16T17:20:06.783Z - info: [ui] Executing getConfigValueInPath: git config -z trailer.separators (took 2.497s)
+2022-02-16T17:20:09.882Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin dev --set-upstream --progress (took 10.497s)
+2022-02-16T17:20:10.603Z - info: [ui] Executing getAllTags: git show-ref --tags -d (took 3.818s)
+2022-02-16T17:20:12.637Z - info: [ui] Executing getConfigValueInPath: git config -z protocol.version (took 2.730s)
+2022-02-16T17:20:12.922Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 --skip=0 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 2.318s)
+2022-02-16T17:20:14.434Z - info: [ui] Executing getConfigValueInPath: git config -z trailer.separators (took 1.511s)
+2022-02-16T17:20:16.799Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 4.161s)
+2022-02-16T17:20:25.754Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.635s)
+2022-02-16T17:20:26.656Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(author)%00%(symref)%00 refs/heads refs/remotes (took 1.006s)
+2022-02-16T17:25:31.661Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.183s)
+2022-02-16T17:25:39.438Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 11 repositories took 9.1s of which 0.0s paused, total 9.1s
+2022-02-16T17:28:08.838Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T17:28:10.768Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.028s)
+2022-02-16T17:28:10.796Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(author)%00%(symref)%00 refs/heads refs/remotes (took 1.068s)
+2022-02-16T17:28:12.765Z - info: [ui] [Timing] Action 'create branch' for 'muzaffarbekm/exadel' took 4.524s
+2022-02-16T17:28:15.593Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T17:28:17.857Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin far-new_feature --set-upstream --progress (took 2.068s)
+2022-02-16T17:28:19.806Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.742s)
+2022-02-16T17:30:35.607Z - info: [ui] [Timing] Action 'create commit' for 'muzaffarbekm/exadel' took 2.553s
+2022-02-16T17:30:36.755Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T17:30:39.329Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin far-new_feature:far-new_feature --progress (took 2.212s)
+2022-02-16T17:30:40.894Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.362s)
+2022-02-16T18:01:12.760Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 11 repositories took 9.8s of which 441.5s paused, total 451.3s
+2022-02-16T18:01:14.804Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:01:17.394Z - info: [ui] [Timing] Action 'checkout branch from list' for 'muzaffarbekm/exadel' took 2.590s
+2022-02-16T18:04:21.628Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.516s)
+2022-02-16T18:04:23.824Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.186s)
+2022-02-16T18:05:01.898Z - info: [ui] Executing getCommits: git log origin/main..main --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.105s)
+2022-02-16T18:08:05.912Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:08:08.335Z - info: [ui] Executing getRemotes: git remote -v (took 1.032s)
+2022-02-16T18:08:08.842Z - info: [ui] [Timing] Action 'checkout branch from list' for 'muzaffarbekm/exadel' took 2.930s
+2022-02-16T18:08:10.659Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:08:13.900Z - info: [ui] [Timing] Action 'checkout branch from list' for 'muzaffarbekm/exadel' took 3.241s
+2022-02-16T18:08:16.896Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:08:18.376Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 1.265s)
+2022-02-16T18:08:18.388Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin main:main --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/Muzaffarbekm/exadel.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Muzaffarbekm/exadel.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2022-02-16T18:08:22.441Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:08:24.437Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.735s)
+2022-02-16T18:08:40.805Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:08:42.741Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 -c rebase.backend=merge pull --progress origin (took 1.545s)
+2022-02-16T18:08:42.764Z - error: [ui] `git -c credential.helper= -c protocol.version=2 -c rebase.backend=merge pull --progress origin` exited with an unexpected code: 128.
+stderr:
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+error: The following untracked working tree files would be overwritten by merge:
+	.gitignore
+Please move or remove them before you merge.
+Aborting
+
+2022-02-16T18:08:53.510Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 11 repositories took 6.2s of which 0.0s paused, total 6.2s
+2022-02-16T18:08:57.611Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:08:59.458Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 -c rebase.backend=merge pull --progress origin (took 1.455s)
+2022-02-16T18:08:59.461Z - error: [ui] `git -c credential.helper= -c protocol.version=2 -c rebase.backend=merge pull --progress origin` exited with an unexpected code: 128.
+stderr:
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+error: The following untracked working tree files would be overwritten by merge:
+	.gitignore
+Please move or remove them before you merge.
+Aborting
+
+2022-02-16T18:11:19.866Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:11:21.854Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 -c rebase.backend=merge pull --progress origin (took 1.626s)
+2022-02-16T18:11:21.869Z - error: [ui] `git -c credential.helper= -c protocol.version=2 -c rebase.backend=merge pull --progress origin` exited with an unexpected code: 128.
+stderr:
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+error: The following untracked working tree files would be overwritten by merge:
+	.gitignore
+Please move or remove them before you merge.
+Aborting
+
+2022-02-16T18:11:51.584Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:11:53.656Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 -c rebase.backend=merge pull --progress origin (took 1.674s)
+2022-02-16T18:12:19.457Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:12:23.016Z - info: [ui] Executing getCommits: git log origin/dev..dev --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.205s)
+2022-02-16T18:12:23.016Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.191s)
+2022-02-16T18:12:23.017Z - info: [ui] Executing getRemotes: git remote -v (took 1.205s)
+2022-02-16T18:12:23.017Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.182s)
+2022-02-16T18:12:24.607Z - info: [ui] Executing getConfigValueInPath: git config -z trailer.separators (took 1.609s)
+2022-02-16T18:12:24.900Z - info: [ui] [Timing] Action 'checkout branch from list' for 'muzaffarbekm/exadel' took 5.435s
+2022-02-16T18:12:30.707Z - info: [main] opening in browser: https://github.com/Muzaffarbekm/exadel/pull/new/dev
+2022-02-16T18:18:03.670Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:18:06.086Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(author)%00%(symref)%00 refs/heads refs/remotes (took 1.252s)
+2022-02-16T18:18:06.088Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.239s)
+2022-02-16T18:18:07.298Z - info: [ui] [Timing] Action 'checkout branch from list' for 'muzaffarbekm/exadel' took 3.629s
+2022-02-16T18:21:40.949Z - info: [ui] Executing getRemotes: git remote -v (took 1.026s)
+2022-02-16T18:21:40.978Z - info: [ui] Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.028s)
+2022-02-16T18:21:40.983Z - info: [ui] Executing getCommits: git log origin/main..main --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.087s)
+2022-02-16T18:24:29.233Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:24:31.120Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.653s)
+2022-02-16T18:24:33.349Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 11 repositories took 8.3s of which 0.0s paused, total 8.3s
+2022-02-16T18:24:39.457Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:24:41.686Z - info: [ui] [Timing] Action 'checkout branch from list' for 'muzaffarbekm/exadel' took 2.224s
+2022-02-16T18:24:42.969Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:24:44.494Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.319s)
+2022-02-16T18:25:54.423Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:25:56.598Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin dev:dev --progress (took 1.971s)
+2022-02-16T18:25:58.098Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.298s)
+2022-02-16T18:31:21.095Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:31:23.926Z - info: [ui] [Timing] Action 'checkout branch from list' for 'muzaffarbekm/exadel' took 2.831s
+2022-02-16T18:32:54.812Z - info: [ui] [Timing] Action 'create commit' for 'muzaffarbekm/exadel' took 2.385s
+2022-02-16T18:32:55.965Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:32:58.435Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin far-new_feature:far-new_feature --progress (took 2.062s)
+2022-02-16T18:33:00.293Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.633s)
+2022-02-16T18:33:43.799Z - warn: [ui] failed fetching updated PRs for repository muzaffarbekm/exadel
+TypeError: Failed to fetch
+2022-02-16T18:33:43.811Z - error: [ui] Error refreshing pull requests for 'muzaffarbekm/exadel'
+TypeError: Failed to fetch
+2022-02-16T18:33:45.761Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.224s)
+2022-02-16T18:33:45.904Z - info: [ui] Executing getCommits: git log origin/far-new_feature..far-new_feature --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.329s)
+2022-02-16T18:33:45.934Z - info: [ui] Executing getCommits: git log HEAD --date=raw --max-count=100 --skip=3 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.116s)
+2022-02-16T18:33:45.972Z - info: [ui] Executing getPartialBlobContents: git show 4d2bc106c1fc7e313e375f16f2d238de4cebb836:Task1/README.md (took 1.142s)
+2022-02-16T18:33:53.000Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:33:58.577Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: exadel - Muzaffarbekm (has token)
+2022-02-16T18:34:01.715Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin far-new_feature:far-new_feature --progress (took 2.935s)
+2022-02-16T18:34:03.303Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.344s)
