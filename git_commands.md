@@ -1,3 +1,5 @@
+**List of commands**
+```
 mkdir Task1
 cd Task1
 touch README.md
@@ -19,3 +21,4 @@ git log > log.txt
 git branch -d far-new_feature
 git push origin --delete far-new_feature
 
+```
